@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Pour l'adaptation aux appareils mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Pour l'adaptation aux appareils mobiles -->
     <style>
-        body {
-            background: linear-gradient(315deg, #be43c9, #fa5369);
-            overflow: hidden; /* Empêche le défilement de la page */
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column; /* Alignement vertical */
-        }
+      body {
+        background: linear-gradient(315deg, #be43c9, #fa5369);
+        overflow: hidden; /* Empêche le défilement de la page */
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; /* Alignement vertical */
+      }
 
-        h1 {
-            color: white;
-            position: relative;
-            top: -30%; /* Ajuster la position verticale */
-        }
+      h1 {
+        color: white;
+        position: relative;
+        top: -30%; /* Ajuster la position verticale */
+      }
 
-        .button {
-            padding: 20px; /* Augmentation de la taille pour une meilleure visibilité sur mobile */
-            border-radius: 15px;
-            border: 0;
-            color: white;
-            position: absolute;
-            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Ajout de l'ombre */
-        }
+      .button {
+        padding: 20px; /* Augmentation de la taille pour une meilleure visibilité sur mobile */
+        border-radius: 15px;
+        border: 0;
+        color: white;
+        position: absolute;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Ajout de l'ombre */
+      }
 
-        #fleeing-button {
-            background: rgb(0, 0, 0);
-            left: 20%;
-            /* Espacement par rapport au texte */
-        }
+      #fleeing-button {
+        background: rgb(0, 0, 0);
+        left: 20%;
+        /* Espacement par rapport au texte */
+      }
 
-        #fixed-button {
-            background: rgb(0, 0, 0);
-            left: 70%;
-            top: 50%; /* Positionne au centre de l'écran */
-            transform: translate(-50%, -50%); /* Centre le bouton horizontalement et verticalement */
-           
-        }
+      #fixed-button {
+        background: rgb(0, 0, 0);
+        left: 70%;
+        top: 50%; /* Positionne au centre de l'écran */
+        transform: translate(
+          -50%,
+          -50%
+        ); /* Centre le bouton horizontalement et verticalement */
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <h1>click on yes </h1>
-    <button id="fleeing-button" class="button">YES :)</button>
-    <button id="fixed-button" class="button">NO :(</button>
+  <body>
+    <h1>veux tu m'épouser</h1>
+    <button id="fleeing-button" class="button">OUI )</button>
+    <button id="fixed-button" class="button">NON 😞 (</button>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
